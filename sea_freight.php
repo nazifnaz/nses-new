@@ -1,4 +1,4 @@
-<?php include 'base.php' ?>
+<?php include 'layout/header.php' ?>
 <?php startblock('main') ?>
 
 
@@ -10,8 +10,8 @@
 
             <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
                 <h1 class="text-white font-weight-light text-uppercase font-weight-bold">Sea Freight</h1>
-                <p class="breadcrumb-custom"><a href="index">Home</a>
-                    <span class="mx-2">&gt;</span><a href="services">Services</a> <span
+                <p class="breadcrumb-custom"><a href="index.php">Home</a>
+                    <span class="mx-2">&gt;</span><a href="services.php">Services</a> <span
                             class="mx-2">&gt;</span> <span>Sea Freight</span></p>
             </div>
         </div>
@@ -59,4 +59,4 @@
     </div>
 </div>
 
-<?php endblock() ?>
+<?php 'layout/footer.php' ?>
