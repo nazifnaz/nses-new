@@ -1,3 +1,4 @@
+<?php include 'layout/header.php' ?>
 <div class="row">
     <div class="col-md-7 mb-5">
 
@@ -87,3 +88,4 @@
 
     </div>
 </div>
+<?php include 'layout/footer.php' ?>
