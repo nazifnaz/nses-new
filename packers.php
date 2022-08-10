@@ -1,4 +1,4 @@
-<?php include 'base.php' ?>
+<?php include 'layout/header.php' ?>
 <?php startblock('main') ?>
 
 
@@ -10,7 +10,7 @@
 
             <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
                 <h1 class="text-white font-weight-light text-uppercase font-weight-bold">Packers & Movers</h1>
-                <p class="breadcrumb-custom"><a href="index">Home</a>
+                <p class="breadcrumb-custom"><a href="index.php">Home</a>
                     <span class="mx-2">&gt;</span><span>Packers & Movers</span></p>
             </div>
         </div>
@@ -79,4 +79,4 @@
     </div>
 </div>
 
-<?php endblock() ?>
+<?php include 'layout/footer.php' ?>
