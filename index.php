@@ -1,5 +1,5 @@
-<?php include 'base.php' ?>
-<?php startblock('main') ?>
+<?php include 'layout/header.php' ?>
+
 
 <div class="site-blocks-cover overlay" data-aos="fade" data-stellar-background-ratio="0.5"
      style="background-image: url('assets/images/hero_bg_1.jpg' );">
@@ -11,7 +11,7 @@
 
                 <h1 class="text-white font-weight-light mb-5 text-uppercase font-weight-bold">Worldwide Freight
                     Services</h1>
-                <p><a class="btn btn-primary py-3 px-5 text-white" href="contact">Get
+                <p><a class="btn btn-primary py-3 px-5 text-white" href="contact.php">Get
                     Quote</a>
                 </p>
 
@@ -81,4 +81,4 @@
     </div>
 </div>
 
-<?php endblock() ?>
+<?php include 'layout/footer.php' ?>
