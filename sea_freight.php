@@ -1,5 +1,5 @@
 <?php include 'layout/header.php' ?>
-<?php startblock('main') ?>
+
 
 
 <div class="site-blocks-cover inner-page-cover overlay"
@@ -59,4 +59,4 @@
     </div>
 </div>
 
-<?php 'layout/footer.php' ?>
+<?php include'layout/footer.php' ?>
