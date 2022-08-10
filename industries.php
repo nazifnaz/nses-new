@@ -1,5 +1,5 @@
-<?php include 'base.php' ?>
-<?php startblock('main') ?>
+<?php include 'layout/header.php' ?>
+
 
 <div class="site-blocks-cover inner-page-cover overlay"
      style="background-image: url('assets/images/hero_bg_1.jpg');" data-aos="fade"
@@ -235,4 +235,4 @@
     </div>
 </div>
 
-<?php endblock() ?>
+<?php include 'layout/footer.php' ?>
